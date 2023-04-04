@@ -10,7 +10,7 @@ GEM
       ast (~> 2.4.0)
     powerpack (0.1.2)
     rainbow (3.0.0)
-    rake (12.3.1)
+    rake (13.0.6)
     rubocop (0.59.2)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -29,9 +29,9 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   minitest
-  rake
+  rake (>= 12.3.3)
   rubocop
   safe_yaml
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
